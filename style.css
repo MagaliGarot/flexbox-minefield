@@ -1,11 +1,24 @@
-.flex1 {
-display: flex;
-justify-content: center;
-/*align-content: center; /*centre sur la page*/
+/*general*/
+
+body{
+    width: 100%;
+    margin: 20% auto;
+}
+
+/*flex*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+    border: solid 1px black;
 }
 
 .flex1 div {
     width: 50px;
-    border: solid 1px black;
+    height: 50px;
     background-color: #cacaca;
+    flex-direction: row;
+    border: solid 1px black;
 }
