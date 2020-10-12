@@ -8,7 +8,8 @@ body{
 /*flex*/
 .container {
     margin: 20% auto;
-    width: 424px;
+    width: 422px;
+    height: 420px;
     display: flex;
     justify-content: center;
      /*border*/
@@ -44,29 +45,24 @@ body{
     color:#ff0000;
 }
 
-/*rect*/
+/*rect & border*/
 
-div .rect {
-    width:50px;
-    height:50px;
-    /*border*/
-    border: solid 1px #cacaca;
-    border-color: black;
-}
 
-/*double border*/
 
 div .rect2{
-    width:40px;
-    height:40px;
+    position:absolute;
+    width:43px;
+    height:43px;
     /*border*/
     border: outset 5px #cacaca;
     border-color: black;
 }
 
-div .doubleborder {
-    margin: 20% auto;
-    width: 600px;
-    height: 600px;
-    border: outset 40px #cacaca;
+/*hover*/
+
+div .rect2:hover{
+    opacity: 0%;
+
 }
+
+
