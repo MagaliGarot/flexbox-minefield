@@ -1,0 +1,11 @@
+.flex1 {
+display: flex;
+justify-content: center;
+/*align-content: center; /*centre sur la page*/
+}
+
+.flex1 div {
+    width: 50px;
+    border: solid 1px black;
+    background-color: #cacaca;
+}
